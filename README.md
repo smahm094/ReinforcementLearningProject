@@ -10,7 +10,7 @@
 Problem Statement: There are 4 locations (labeled by different letters), and our job is to pick up the passenger at one location and drop him off at another. We receive +20 points for a successful drop-off and lose 1 point for every time-step it takes. There is also a 10 points penalty for illegal pick-up and drop-off actions.
 
 
-1. Design a self driving cab (using above-mentioned parameters) by applying "Taxi-v3" model from AI-gym
+1. Design a self driving cab (using above-mentioned parameters) by applying "Taxi-v3" environment from AI-Gym
 2. Turn your code into a module of functions that can use multiple environments
 3. Tune alpha, gamma, and/or epsilon using a decay over episodes
 4. Implement a grid search to discover the best hyperparameters
